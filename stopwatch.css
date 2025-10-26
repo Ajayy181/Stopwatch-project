@@ -1,0 +1,164 @@
+body {
+  background-color: black;
+  font-family: Arial;
+  padding-bottom: 200px;
+}
+
+.stopwatch-paragraph {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.button-div-class {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+
+.lap-number {
+
+}
+
+.lap-count {
+  font-family: monospace;
+}
+
+.lap-paragraph {
+  display: grid;
+  grid-template-columns: 1fr 77px;
+  font-size: 20px;
+  color: white;
+  border-style: solid;
+  border-color: rgba(35, 35, 35, 0.693);
+  border-width: 1px;
+  border-right: none;
+  border-left: none;
+  margin-top: 30px;
+}
+
+.start-button {
+  background-color: rgba(19, 17, 17, 0.262);
+  color: white;
+  font-size: 45px;
+  font-family: monospace;
+  width: 220px;
+  height: 220px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 110px;
+  box-shadow: 0 0 8px rgba(128, 128, 128, 0.899);
+  cursor: pointer;
+}
+
+.start-button:hover {
+  opacity: 0.6;
+}
+
+.start-button:active {
+  opacity: 0.4;
+}
+
+.pause-button {
+  background-color: rgb(41, 39, 39);
+  color: white; 
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 35px;
+  box-shadow: 0 0 8px rgba(128, 128, 128, 0.899);
+  cursor: pointer;
+}
+
+.pause-button:hover {
+  opacity: 0.6;
+}
+
+.pause-button:active {
+  opacity: 0.4;
+}
+
+.lap-button {
+  background-color: rgb(41, 39, 39);
+  color: white; 
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 35px;
+  box-shadow: 0 0 8px rgba(128, 128, 128, 0.899);
+  cursor: pointer;
+}
+
+.lap-button:hover {
+  opacity: 0.6;
+}
+
+.lap-button:active {
+  opacity: 0.4;
+}
+
+.reset-button {
+  background-color: rgb(80, 10, 10);
+  color: rgb(255, 0, 0); 
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 35px;
+  box-shadow: 0 0 8px rgba(154, 70, 70, 0.899);
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  opacity: 0.6;
+}
+
+.reset-button:active {
+  opacity: 0.4;
+}
+
+.lap-loop-paragraph {
+  display: grid;
+  grid-template-columns: 1fr 77px;
+  font-size: 20px;
+  color: white;
+  border-style: solid;
+  border-color: rgba(35, 35, 35, 0.693);
+  border-width: 1px;
+  border-right: none;
+  border-left: none;
+  margin-top: 30px;
+}
+
+.lap-loop {
+  font-family: monospace;
+  color: green;
+}
+
+.timer-image-div {
+  display: flex;
+  justify-content: end;
+}
+
+.timer-image {
+  width: 50px;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
